@@ -9,6 +9,7 @@ import HelloWorld from './components/HelloWorld';
 import HelloUniverse from './components/HelloUniverse';
 import HelloImmutable from './components/ImmutableExamples/HelloImmutable';
 import StatefulComponent from './components/StatefulComponent';
+import Todo from './components/Todo';
 
 function App() {
   return (
@@ -19,20 +20,8 @@ function App() {
           Learn React
         </a>
       </header>
-
-      <HelloWorld helloMessage="Hello World" text="This is my first component. See how easy React is?" />
-
-      <div className="App-main">
-        <HelloUniverse helloMessage="Hello Universe!!" text="Wait, are you telling me there is a multiverse?" />
-      </div>
-
-      <div className="App-main">
-        <HelloImmutable />
-      </div>
-
-      <div className="App-main">
-        <StatefulComponent />
-      </div>
+       <h2>Todo Example</h2>
+      <Todo />
     </div>
   );
 }
